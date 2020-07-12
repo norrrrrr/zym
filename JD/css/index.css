@@ -1,0 +1,353 @@
+.container {
+  background-color: #f4f4f4;
+}
+.nav {
+  height: 30px;
+  background: #e3e4e5;
+  border-bottom: 1px solid #ddd;
+}
+.nav-box {
+  margin: 0px auto;
+  width: 1190px;
+  text-align: right;
+}
+.nav-box ul li {
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: 12px;
+  height: 30px;
+  line-height: 30px;
+  position: relative;
+}
+.nav-box ul li a {
+  color: #999999;
+  text-decoration: none;
+}
+.nav-box ul li:not(:last-child):after {
+  content: "";
+  width: 1px;
+  height: 14px;
+  background: #cccccc;
+  position: absolute;
+  top: 8px;
+  right: 0px;
+  display: block;
+}
+
+.nav-box ul li a:hover {
+  color: #f10215;
+}
+.header-box {
+  height: 140px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+.header {
+  width: 1190px;
+  display: flex;
+  margin: 0px auto;
+  padding: 10px 0px;
+}
+.header .logo-box {
+  background: url(https://misc.360buyimg.com/mtd/pc/index_2019/1.0.0/assets/sprite/header/sprite.png)
+    no-repeat;
+  width: 190px;
+  height: 120px;
+}
+.logobox {
+  width: 190px;
+  height: 120px;
+}
+.header .search-box {
+  width: 790px;
+  margin-left: 20px;
+}
+.header .search-bar {
+  padding: 15px 0px 0px 50px;
+  display: flex;
+}
+.search-bar input {
+  border: 2px solid #e1251b;
+  width: 423px;
+  height: 28px;
+  padding: 2px 44px 2px 17px;
+}
+.search-bar .search-btn {
+  width: 54px;
+  height: 32px;
+  border: 2px solid #e1251b;
+  background: #e1251b;
+  cursor: pointer;
+  line-height: 34px;
+  text-align: center;
+}
+.search-bar .iconfont-search {
+  color: #ffffff;
+  font-size: 21px;
+  font-weight: bold;
+}
+.search-bar .cart-btn {
+  margin: 0px 0px 0px 18px;
+  border: 1px solid #e3e4e5;
+  width: 100px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #e1251b;
+  padding: 0px 15px;
+}
+.search-bar .cart-btn:hover {
+  border: 1px solid #e1251b;
+}
+.search-bar .iconfont-cart {
+  font-size: 17px;
+  font-weight: bold;
+  margin-right: 13px;
+}
+.search-box .cart-btn a {
+  color: #e1251b;
+  font-size: 12px;
+  cursor: pointer;
+}
+.search-box .recommend {
+  padding: 4px 0px 20px 50px;
+}
+.search-box .recommend li {
+  display: inline-block;
+  font-size: 12px;
+  padding: 0px 5px 0px 0px;
+}
+.search-box .recommend li a {
+  color: #999999;
+  margin: 0px;
+}
+.search-box .navitems li {
+  display: inline-block;
+  font-size: 15px;
+  padding-top: 2px;
+}
+.search-box ul li a {
+  color: #333333;
+  margin: 0px 9px;
+}
+.ad-box {
+  width: 190px;
+  height: 120px;
+}
+.content .wrapper {
+  margin: 0px auto;
+  width: 1190px;
+  padding: 10px;
+  display: flex;
+}
+.menu-box {
+  width: 190px;
+  background: #ffffff;
+  position: relative;
+  padding: 10px 0px;
+  margin-right: 10px;
+}
+.menu-box ul li {
+  height: 25px;
+  line-height: 25px;
+  padding-left: 18px;
+  overflow: hidden;
+}
+.menu-box ul li:hover {
+  background: #d9d9d9;
+}
+.menu-box ul li .active {
+  display: block;
+}
+.menu-box ul li .main-menu {
+  font-size: 0px;
+}
+.menu-box ul li a {
+  color: #333333;
+  font-size: 14px;
+}
+.menu-box ul li a:hover {
+  color: #e1251b;
+}
+.menu-box ul li span {
+  font-size: 12px;
+  padding: 0px 2px;
+}
+.cate_menu_line {
+  font-size: 12px;
+  padding: 0;
+}
+.menu-box .sub-menu {
+  position: absolute;
+  top: 0px;
+  left: 191px;
+  background: #ffffff;
+  z-index: 10;
+  width: 960px;
+  padding: 20px 15px 20px 20px;
+  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.3);
+  border: 1px solid #f7f7f7;
+  display: none;
+}
+.sub-menu .left-box {
+  float: left;
+  max-width: 774.5px;
+}
+.sub-menu .right-box {
+  float: right;
+  width: 170px;
+}
+.sub-menu .menu-title {
+  margin: 0px 0px 10px 0px;
+}
+.sub-menu .menu-title .item {
+  display: inline-block;
+  background: #333333;
+  padding: 0px 8px 0px 10px;
+  margin: 0px 6px 0px 0px;
+  color: #ffffff;
+  font-size: 12px;
+  height: 24px;
+}
+
+.sub-menu dl {
+  display: flex;
+  font-size: 12px;
+}
+.sub-menu dt {
+  font-weight: bold;
+  width: 70px;
+  text-align: right;
+  flex-shrink: 0;
+  margin: 3px 0px;
+  color: #666666;
+  padding-right: 6px;
+}
+.menu-box ul li .sub-menu dt a {
+  font-size: 12px;
+}
+.sub-menu dd {
+  margin: 3px 0px;
+  text-decoration: none;
+  float: left;
+}
+.menu-box ul li .sub-menu dd a {
+  padding: 0px 0px 0px 10px;
+  white-space: nowrap;
+  font-size: 12px;
+  color: #666666;
+}
+.iconfont-arrow {
+  font-size: 12px;
+  font-weight: bold;
+  padding: 0px 2px;
+}
+.sub-menu .pic-box {
+  width: 168px;
+  height: 186px;
+}
+.slider-box {
+  margin-right: 10px;
+}
+.slider-box .slider {
+  width: 590px;
+  height: 470px;
+  position: relative;
+  overflow: hidden;
+}
+.slider-box .slider ul {
+  position: absolute;
+  top: 0px;
+  height: 100%;
+}
+.slider-box .slider ul li{
+  float: left;
+}
+.slider-box .left-box{
+  left: 0px;
+  position: absolute;
+  top: 50%;
+  border-radius: 0px;
+  width: 25px;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgba(0,0,0,.15);
+  margin-top: -20px;
+  font-size: 20px;
+  z-index: 2;
+  border: none;
+  outline: none;
+  transition: background-color .2s ease;
+  border-top-right-radius: 18px;
+  border-bottom-right-radius: 18px;
+}
+.slider-box .right-box{
+  right: 0px;
+  position: absolute;
+  top: 50%;
+  border-radius: 0px;
+  width: 25px;
+  height: 35px;
+  line-height: 35px;
+  background-color: rgba(0,0,0,.15);
+  margin-top: -20px;
+  font-size: 20px;
+  z-index: 2;
+  border: none;
+  outline: none;
+  transition: background-color .2s ease;
+  border-top-left-radius: 18px;
+  border-bottom-left-radius: 18px;
+}
+.slider-box span{
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  color: rgba(255,255,255,.8);
+  transition: color .2s ease;
+  justify-content: center;
+  cursor: pointer;
+}
+.slider-box .index-box {
+  position: absolute;
+  margin-left: 0!important;
+  left: 30px;
+  bottom: 20px;
+}
+.slider-box .index-box > ol {
+  height: 15px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background: rgba(0, 0, 0, 0);
+}
+.slider-box .index-box > ol > li {
+  width: 8px;
+  height: 8px;
+  border: 1px solid rgba(0,0,0,.05);
+  background: rgba(255,255,255,.4);
+  border-radius: 50%;
+  position: relative;
+  display: inline-block;
+}
+
+.slider-box .index-box > ol > li:not(:last-child){
+  margin-right: 4px;
+}
+.slider-box .index-box > ol > li.active {
+  width: 9px;
+  height: 9px;
+  border: 3px solid rgba(0,0,0,.18);
+}
+.slider-box .index-box > ol > li.active:before {
+  content: "";
+  position: absolute;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: block;
+}
